@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="wrapper-header">
+            <h1 id="header"> OpenWeatherAPI</h1>
+        </div>
+
+        <div class="containerKiev">
+            <div class="city cityKiev" id="kiev"></div>
+            <div class="deg"></div>
+            <img class="image" id="image">
+            <img src="image/arrow-right.png" class="rightUrrow first" id="rightUrrowBtn">
+        </div>
+        <img class="arrowDetails" src="image/down-arrowW.png" id="firstArrow">
+        <div class="details" id="firstDetails">
+            <div class="wSpeed">W.Speed</div>
+            <div class="wDirection">
+                <img src="image/arrow.png" alt="arrow-up">
+            </div>
+            <div class="pressure">Pressure</div>
+            <div class="sunrise">Sunrise</div>
+            <div class="sunseet" id="speed">Sunseet</div>
+        </div>
+        <hr>
+
+        <div class="containerKiev">
+            <div class="city cityLondon"></div>
+            <div class="deg"></div>
+            <img class="image" id="image">
+            <img src="image/arrow-right.png" class="rightUrrow second" id="rightUrrowBtn">
+
+        </div>
+
+        <img class="arrowDetails" src="image/down-arrowW.png" id="secondArrow">
+
+        <div class="details" id="secondDetails">
+            <div class="wSpeed">W.Speed</div>
+            <div class="wDirection">
+                <img src="image/arrow.png" alt="arrow-up">
+            </div>
+            <div class="pressure">Pressure</div>
+            <div class="sunrise">Sunrise</div>
+            <div class="sunseet">Sunseet</div>
+        </div>
+        <hr>
+
+        <div class="containerKiev">
+            <div class="city"></div>
+            <div class="deg"></div>
+            <img class="image" id="image">
+            <img src="image/arrow-right.png" class="rightUrrow third" id="rightUrrowBtn">
+
+
+        </div>
+        <img class="arrowDetails" src="image/down-arrowW.png" id="lastArrow">
+        <div class="details" id="lastDetails">
+            <div class="wSpeed">W.Speed</div>
+            <div class="wDirection">
+                <img src="image/arrow.png" alt="arrow-up">
+            </div>
+            <div class="pressure">Pressure</div>
+            <div class="sunrise">Sunrise</div>
+            <div class="sunseet">Sunseet</div>
+        </div>
+        <hr>
+
+        <div class="wrapperBtn" >
+            <div class="temperature1" id="btnCelsius">℃</div>
+            <div class="temperature2" id="btnFahrenheit">℉</div>
+        </div>
+
+    </div>
+
+    <div class="hidden">
+        <table>
+            <tbody>
+                <tr> 
+                    <td class="celsius"></td>
+                    <td class="celsius"></td>
+                    <td class="celsius"></td>
+                    <td class="celsius"></td>
+                    <td class="celsius"></td>
+                    <td class="celsius"></td>
+                    <td class="celsius"></td>
+                </tr>
+                <tr>
+                    <td class="faren"></td>
+                    <td class="faren"></td>
+                    <td class="faren"></td>
+                    <td class="faren"></td>
+                    <td class="faren"></td>
+                    <td class="faren"></td>
+                    <td class="faren"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="hidden2">
+        <table>
+            <tbody>
+                <tr> 
+                    <td class="celsius2"></td>
+                    <td class="celsius2"></td>
+                    <td class="celsius2"></td>
+                    <td class="celsius2"></td>
+                    <td class="celsius2"></td>
+                    <td class="celsius2"></td>
+                    <td class="celsius2"></td>
+                </tr>
+                <tr>
+                    <td class="faren2"></td>
+                    <td class="faren2"></td>
+                    <td class="faren2"></td>
+                    <td class="faren2"></td>
+                    <td class="faren2"></td>
+                    <td class="faren2"></td>
+                    <td class="faren2"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="hidden3">
+        <table>
+            <tbody>
+                <tr> 
+                    <td class="celsius3"></td>
+                    <td class="celsius3"></td>
+                    <td class="celsius3"></td>
+                    <td class="celsius3"></td>
+                    <td class="celsius3"></td>
+                    <td class="celsius3"></td>
+                    <td class="celsius3"></td>
+                </tr>
+                <tr>
+                    <td class="faren3"></td>
+                    <td class="faren3"></td>
+                    <td class="faren3"></td>
+                    <td class="faren3"></td>
+                    <td class="faren3"></td>
+                    <td class="faren3"></td>
+                    <td class="faren3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+<div>
+
+</div>
+
+</html>
